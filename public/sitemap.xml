@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Replace every https://www.example.com with your production origin before go-live. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://www.example.com/</loc><changefreq>weekly</changefreq><priority>1</priority></url>
+  <url><loc>https://www.example.com/about</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.example.com/services</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.example.com/services/business-systems</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://www.example.com/services/websites-apps</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://www.example.com/services/custom-software</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://www.example.com/products</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.example.com/products/aubizo-erp</loc><changefreq>weekly</changefreq><priority>0.95</priority></url>
+  <url><loc>https://www.example.com/case-studies</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.example.com/case-studies/amma-association</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.example.com/case-studies/tanay-agronics</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.example.com/case-studies/ashwamedh-agrochemicals</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.example.com/case-studies/ashwamedh-herbal-rd</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.example.com/insights</loc><changefreq>weekly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://www.example.com/insights/structure-operations-with-systems</loc><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://www.example.com/insights/struggle-without-workflow-systems</loc><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://www.example.com/insights/when-to-leave-excel-for-erp</loc><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://www.example.com/insights/what-good-erp-should-do</loc><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://www.example.com/insights/erp-vs-crm-what-you-need</loc><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://www.example.com/insights/mistakes-implementing-business-software</loc><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://www.example.com/insights/automation-reduce-manual-work</loc><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://www.example.com/insights/where-businesses-waste-time</loc><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://www.example.com/insights/simple-automations-growing-business</loc><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://www.example.com/insights/what-business-website-should-do</loc><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://www.example.com/insights/why-websites-fail-leads</loc><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://www.example.com/insights/website-vs-business-system</loc><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://www.example.com/contact</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://www.example.com/demo</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
+</urlset>

@@ -1,0 +1,11 @@
+# After deploy: uncomment and set your live origin (must be absolute URL).
+# Sitemap: https://www.yourdomain.com/sitemap.xml
+
+User-agent: *
+Allow: /
+
+# Mock portal and auth — low value for search; avoid indexing thin/login UX
+Disallow: /app/
+Disallow: /login
+Disallow: /forgot-password
+Disallow: /reset-password
