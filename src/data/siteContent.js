@@ -3,7 +3,7 @@
  */
 
 export const home = {
-  heroBadge: 'Structured systems · Real operations · India',
+  heroBadge: 'Structured systems · Real operations · Worldwide',
   headline:
     'We build structured software systems, websites, and applications for businesses of all sizes.',
   subtext:
@@ -687,7 +687,7 @@ export const contact = {
   stats: [
     { value: 'Human', label: 'Replies, not ticket bots' },
     { value: 'Ops-first', label: 'We speak workflow' },
-    { value: 'India', label: 'Built for real field & plant reality' },
+    { value: 'Field-ready', label: 'Built for real supply chains & teams' },
   ],
   responseLine: 'We aim to respond within one business day — faster when your subject line says what you’re trying to fix.',
   trustStripTitle: 'Teams we’ve shipped for',
