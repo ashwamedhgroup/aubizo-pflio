@@ -22,9 +22,11 @@ export function PublicHeader() {
           className="flex shrink-0 items-center gap-2.5 font-semibold tracking-tight text-zinc-900"
           onClick={() => setOpen(false)}
         >
-          <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-br from-teal-600 to-teal-800 text-sm font-bold text-white shadow-md shadow-teal-900/20">
-            A
-          </span>
+          <img
+            src="/aubizo_logo.png"
+            alt="Aubizo"
+            className="h-9 w-9 rounded-xl object-contain shadow-md shadow-teal-900/20"
+          />
           <span className="hidden sm:inline">Aubizo</span>
         </Link>
 

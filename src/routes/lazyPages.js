@@ -11,10 +11,6 @@ export const CaseStudyDetailPage = lazy(() =>
 export const ContactPage = lazy(() => import('../pages/ContactPage').then((m) => ({ default: m.ContactPage })))
 export const DemoPage = lazy(() => import('../pages/DemoPage').then((m) => ({ default: m.DemoPage })))
 export const HomePage = lazy(() => import('../pages/HomePage').then((m) => ({ default: m.HomePage })))
-export const InsightDetailPage = lazy(() =>
-  import('../pages/InsightDetailPage').then((m) => ({ default: m.InsightDetailPage })),
-)
-export const InsightsPage = lazy(() => import('../pages/InsightsPage').then((m) => ({ default: m.InsightsPage })))
 export const ProductDetailPage = lazy(() =>
   import('../pages/ProductDetailPage').then((m) => ({ default: m.ProductDetailPage })),
 )

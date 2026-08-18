@@ -702,7 +702,6 @@ export const contact = {
     { label: 'Case studies', hint: 'Delivery stories & outcomes', to: '/case-studies' },
     { label: 'Services', hint: 'ERP, apps, custom builds', to: '/services' },
     { label: 'Aubizo', hint: 'Operating system for agro businesses', to: '/products/aubizo-erp' },
-    { label: 'Insights', hint: 'How we think about systems', to: '/insights' },
   ],
   afterSubmitTitle: 'What happens next',
   afterSubmit: [

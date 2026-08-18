@@ -59,6 +59,46 @@ export function AboutPage() {
         </div>
       </section>
 
+      {/* Leadership */}
+      <section className="mx-auto max-w-6xl px-4 py-20 sm:px-6 lg:px-8">
+        <div className="overflow-hidden rounded-3xl border border-zinc-200/80 bg-white shadow-xl ring-1 ring-zinc-950/[0.04]">
+          <div className="grid lg:grid-cols-5">
+            <div className="relative lg:col-span-2">
+              <img
+                src="/founder.png"
+                alt="Samarth Waghchoure — Founder, Aubizo"
+                className="w-full h-auto block"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-zinc-950/60 via-transparent to-transparent lg:hidden" />
+            </div>
+            <div className="flex flex-col justify-center p-8 sm:p-10 lg:col-span-3 lg:p-12">
+              <h2 className="text-sm font-semibold uppercase tracking-[0.2em] text-teal-800">{a.leadership.heading}</h2>
+              <div className="mt-6 space-y-5 text-base leading-relaxed text-zinc-600">
+                {a.leadership.paragraphs.map((p, i) => (
+                  <p key={`leadership-${i}`}>{p}</p>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Mission & Vision */}
+      <section className="border-y border-zinc-200 bg-zinc-100/40 py-20">
+        <div className="mx-auto grid max-w-6xl gap-6 px-4 sm:px-6 md:grid-cols-2 lg:px-8">
+          <div className="group relative overflow-hidden rounded-2xl border border-zinc-200/80 bg-white p-8 shadow-sm ring-1 ring-zinc-950/[0.04] transition hover:shadow-lg">
+            <div className="pointer-events-none absolute -right-8 -top-8 h-32 w-32 rounded-full bg-teal-500/10 blur-2xl transition group-hover:bg-teal-500/15" />
+            <h2 className="text-xs font-semibold uppercase tracking-[0.2em] text-teal-800">{a.mission.heading}</h2>
+            <p className="relative mt-5 text-lg font-medium leading-relaxed text-zinc-800">{a.mission.text}</p>
+          </div>
+          <div className="group relative overflow-hidden rounded-2xl border border-zinc-200/80 bg-zinc-950 p-8 text-white shadow-xl">
+            <div className="pointer-events-none absolute -left-8 -bottom-8 h-36 w-36 rounded-full bg-teal-400/10 blur-2xl" />
+            <h2 className="text-xs font-semibold uppercase tracking-[0.2em] text-teal-400">{a.vision.heading}</h2>
+            <p className="relative mt-5 text-lg font-medium leading-relaxed text-zinc-200">{a.vision.text}</p>
+          </div>
+        </div>
+      </section>
+
       {/* Story */}
       <section className="mx-auto max-w-6xl px-4 py-20 sm:px-6 lg:px-8">
         <div className="grid items-start gap-14 lg:grid-cols-2 lg:gap-20">
@@ -83,49 +123,6 @@ export function AboutPage() {
               sizes="(min-width: 1024px) 28rem, 100vw"
               rounded="rounded-2xl"
             />
-          </div>
-        </div>
-      </section>
-
-      {/* Mission & Vision */}
-      <section className="border-y border-zinc-200 bg-zinc-100/40 py-20">
-        <div className="mx-auto grid max-w-6xl gap-6 px-4 sm:px-6 md:grid-cols-2 lg:px-8">
-          <div className="group relative overflow-hidden rounded-2xl border border-zinc-200/80 bg-white p-8 shadow-sm ring-1 ring-zinc-950/[0.04] transition hover:shadow-lg">
-            <div className="pointer-events-none absolute -right-8 -top-8 h-32 w-32 rounded-full bg-teal-500/10 blur-2xl transition group-hover:bg-teal-500/15" />
-            <h2 className="text-xs font-semibold uppercase tracking-[0.2em] text-teal-800">{a.mission.heading}</h2>
-            <p className="relative mt-5 text-lg font-medium leading-relaxed text-zinc-800">{a.mission.text}</p>
-          </div>
-          <div className="group relative overflow-hidden rounded-2xl border border-zinc-200/80 bg-zinc-950 p-8 text-white shadow-xl">
-            <div className="pointer-events-none absolute -left-8 -bottom-8 h-36 w-36 rounded-full bg-teal-400/10 blur-2xl" />
-            <h2 className="text-xs font-semibold uppercase tracking-[0.2em] text-teal-400">{a.vision.heading}</h2>
-            <p className="relative mt-5 text-lg font-medium leading-relaxed text-zinc-200">{a.vision.text}</p>
-          </div>
-        </div>
-      </section>
-
-      {/* Leadership */}
-      <section className="mx-auto max-w-6xl px-4 py-20 sm:px-6 lg:px-8">
-        <div className="overflow-hidden rounded-3xl border border-zinc-200/80 bg-white shadow-xl ring-1 ring-zinc-950/[0.04]">
-          <div className="grid lg:grid-cols-5">
-            <div className="relative lg:col-span-2">
-              <MediaImage
-                photoId={PHOTOS.aboutLeadership}
-                alt="Professional context representing leadership and accountability"
-                flush
-                rounded="rounded-none"
-                className="aspect-[4/3] min-h-[240px] w-full lg:aspect-auto lg:min-h-full lg:max-h-[420px]"
-                sizes="(min-width: 1024px) 380px, 100vw"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-zinc-950/60 via-transparent to-transparent lg:hidden" />
-            </div>
-            <div className="flex flex-col justify-center p-8 sm:p-10 lg:col-span-3 lg:p-12">
-              <h2 className="text-sm font-semibold uppercase tracking-[0.2em] text-teal-800">{a.leadership.heading}</h2>
-              <div className="mt-6 space-y-5 text-base leading-relaxed text-zinc-600">
-                {a.leadership.paragraphs.map((p, i) => (
-                  <p key={`leadership-${i}`}>{p}</p>
-                ))}
-              </div>
-            </div>
           </div>
         </div>
       </section>

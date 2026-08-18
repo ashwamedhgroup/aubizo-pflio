@@ -16,8 +16,6 @@ import {
   DemoPage,
   ForgotPasswordPage,
   HomePage,
-  InsightDetailPage,
-  InsightsPage,
   InvoiceListPage,
   LeadCreatePage,
   LeadDetailPage,
@@ -87,8 +85,6 @@ export default function App() {
               <Route path="products/:productSlug" element={<ProductDetailPage />} />
               <Route path="case-studies" element={<CaseStudiesPage />} />
               <Route path="case-studies/:caseSlug" element={<CaseStudyDetailPage />} />
-              <Route path="insights" element={<InsightsPage />} />
-              <Route path="insights/:insightSlug" element={<InsightDetailPage />} />
               <Route path="contact" element={<ContactPage />} />
               <Route path="demo" element={<DemoPage />} />
             </Route>

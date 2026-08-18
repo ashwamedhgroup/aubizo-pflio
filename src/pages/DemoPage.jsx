@@ -194,17 +194,6 @@ export function DemoPage() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-6xl px-4 py-16 sm:px-6 lg:px-8">
-        <div className="rounded-2xl border border-zinc-200 bg-zinc-50/90 px-8 py-10 text-center ring-1 ring-zinc-950/[0.03] sm:px-12">
-          <p className="text-sm font-medium text-zinc-800">Not ready for a live session?</p>
-          <Link
-            to="/insights"
-            className="mt-4 inline-flex rounded-lg border border-zinc-300 bg-white px-6 py-3 text-sm font-semibold text-zinc-800 transition hover:bg-zinc-50"
-          >
-            Read insights first
-          </Link>
-        </div>
-      </section>
     </div>
   )
 }

@@ -10,9 +10,11 @@ export function PublicFooter() {
         <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-3">
           <div>
             <Link to="/" className="inline-flex items-center gap-2.5 font-semibold tracking-tight text-white">
-              <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-br from-teal-500 to-teal-700 text-sm font-bold text-white">
-                A
-              </span>
+              <img
+                src="/aubizo_logo.png"
+                alt="Aubizo"
+                className="h-9 w-9 rounded-xl object-contain"
+              />
               Aubizo
             </Link>
             <p className="mt-5 max-w-sm text-sm leading-relaxed text-zinc-500">
@@ -61,18 +63,6 @@ export function PublicFooter() {
         <div className="mt-12 flex flex-col gap-3 border-t border-zinc-800/80 pt-10 text-sm text-zinc-600 sm:flex-row sm:flex-wrap sm:items-center sm:justify-between">
           <p>© {year} Aubizo. All rights reserved.</p>
           <p className="text-zinc-600">Built for operational clarity and independence.</p>
-          <p className="text-xs text-zinc-600 sm:w-full">
-            Photography via{' '}
-            <a
-              href="https://unsplash.com"
-              className="text-zinc-500 underline decoration-zinc-700 underline-offset-2 hover:text-teal-400"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Unsplash
-            </a>
-            — replace with your brand assets when ready.
-          </p>
         </div>
       </div>
     </footer>

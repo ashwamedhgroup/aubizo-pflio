@@ -4,7 +4,6 @@ export const mainNav = [
   { label: 'Services', to: '/services' },
   { label: 'Products', to: '/products' },
   { label: 'Case Studies', to: '/case-studies' },
-  { label: 'Insights', to: '/insights' },
 ]
 
 export const footerNav = [
