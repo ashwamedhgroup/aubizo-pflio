@@ -46,9 +46,14 @@ export function PublicFooter() {
                 </Link>
               </li>
               <li>
-                <Link to="/login" className="text-zinc-500 transition hover:text-zinc-400">
-                  Staff portal (mock)
-                </Link>
+                <a
+                  href="https://app.aubizo.com/login"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-zinc-400 transition hover:text-teal-400"
+                >
+                  Log in
+                </a>
               </li>
             </ul>
           </div>

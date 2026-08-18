@@ -43,6 +43,14 @@ export function PublicHeader() {
           >
             Contact
           </Link>
+          <a
+            href="https://app.aubizo.com/login"
+            target="_blank"
+            rel="noreferrer"
+            className="rounded-lg px-3 py-2 text-sm font-medium text-zinc-600 transition-colors hover:bg-zinc-100 hover:text-zinc-900"
+          >
+            Log in
+          </a>
           <Link
             to="/demo"
             className="rounded-lg bg-gradient-to-b from-teal-500 to-teal-600 px-4 py-2.5 text-sm font-semibold text-white shadow-md shadow-teal-900/20 transition hover:from-teal-400 hover:to-teal-500"
@@ -99,13 +107,6 @@ export function PublicHeader() {
             onClick={() => setOpen(false)}
           >
             Contact
-          </Link>
-          <Link
-            to="/demo"
-            className="rounded-lg bg-gradient-to-b from-teal-500 to-teal-600 px-3 py-2.5 text-center text-sm font-semibold text-white"
-            onClick={() => setOpen(false)}
-          >
-            Request a demo
           </Link>
         </nav>
       </div>
