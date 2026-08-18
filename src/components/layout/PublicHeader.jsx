@@ -44,7 +44,7 @@ export function PublicHeader() {
             Contact
           </Link>
           <a
-            href="https://app.aubizo.com/login"
+            href="https://app.aubizo.com/"
             target="_blank"
             rel="noreferrer"
             className="rounded-lg px-3 py-2 text-sm font-medium text-zinc-600 transition-colors hover:bg-zinc-100 hover:text-zinc-900"

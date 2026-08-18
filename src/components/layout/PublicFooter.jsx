@@ -47,7 +47,7 @@ export function PublicFooter() {
               </li>
               <li>
                 <a
-                  href="https://app.aubizo.com/login"
+                  href="https://app.aubizo.com/"
                   target="_blank"
                   rel="noreferrer"
                   className="text-zinc-400 transition hover:text-teal-400"

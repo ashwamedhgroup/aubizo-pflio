@@ -24,7 +24,7 @@ export function PublicLayout() {
         <div className="border-t border-zinc-200/80 bg-white/90 backdrop-blur-xl">
           <div className="flex items-center gap-3 px-4 py-3 pb-[max(12px,env(safe-area-inset-bottom))]">
             <a
-              href="https://app.aubizo.com/login"
+              href="https://app.aubizo.com/"
               target="_blank"
               rel="noreferrer"
               className="flex flex-1 items-center justify-center rounded-xl border border-zinc-200 bg-white px-4 py-3 text-sm font-semibold text-zinc-700 shadow-sm transition hover:bg-zinc-50 active:scale-[0.98]"
